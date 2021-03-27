@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 
-    background-color: var(--bgbody-color);
+    background-color: var(--body-white);
 }
 
 a:focus{
@@ -16,6 +16,7 @@ a:focus{
     --bgbody-color:rgb(230,230,230);
     --inner-screen:#2F303A;
     --team-bg:#F5F4FA;
+    --body-white:#fff;
 }
 /*HEADER block*/
 .header {
