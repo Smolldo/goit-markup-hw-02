@@ -1,0 +1,104 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+    background-color: var(--bgbody-color);
+}
+
+a:focus{
+    color: var( --hover-color);
+}
+
+:root{
+    --text-color: #212121 ;
+    --hover-color: #2196F3 ;
+    --alter-text: #757575;
+    --bg-color: #fff;
+    --bgbody-color:rgb(230,230,230);
+    --inner-screen:#2F303A;
+    --team-bg:#F5F4FA;
+}
+/*HEADER block*/
+.header {
+    border-bottom: 1px solid var(--bgbody-color);
+}
+
+.nav_list li .current:current{
+    color: var(--hover-color);
+}
+
+
+/*main block*/
+
+.product_item a{
+    text-decoration: none;
+}
+
+.portfolio_main{
+ 
+    background-color: var(--bg-color);
+
+}
+
+.btn_list{
+    
+    list-style: none;
+}
+
+.filter_btn {
+    font-weight: 500;
+
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .02em;
+
+    background-color:#F5F4FA    ;
+
+    padding: 6px 22px;
+
+    border-radius: 5px;
+    border-color: transparent;
+
+    transition: .3s linear;
+}
+
+.filter_btn:hover {
+    color: var(--bg-color);
+    cursor: pointer;
+    background-color: var( --hover-color);
+}
+
+.filter_btn:focus{
+    color: var(--bg-color);
+    background-color: var(--hover-color);
+}
+
+
+.product_item{
+    height: 404px;
+    width: 370px;
+
+    border: 1px solid var(--team-bg);
+
+    list-style: none;
+
+}
+
+
+.prod_name{
+
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: .06em;
+    font-weight: 700;
+
+    color: var(--text-color);
+}
+
+.prod_description{
+
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .03em;
+
+    color: var(--alter-text);
+}

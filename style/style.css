@@ -1,0 +1,323 @@
+
+:root{
+    --text-color: #212121 ;
+    --hover-color: #2196F3 ;
+    --alter-text: #757575;
+    --bg-color: #fff;
+    --bgbody-color:rgb(230,230,230);
+    --inner-screen:#2F303A;
+    --team-bg:#F5F4FA;
+    --logo-color:#000;
+    --body-white:#fff;
+}
+
+body{
+
+
+    background-color: var(--body-white);
+}
+
+a:focus{
+    color: var( --hover-color);
+}
+/*header section*/
+
+.header{
+    background-color: var(--bg-color);
+}
+
+.web {
+    color: var( --hover-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+.logos{
+    color: var(--logo-color);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
+    font-size: 27px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: .03em;
+}
+
+.nav_list{
+
+    list-style: none;
+}
+
+.link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .02em;
+
+    color:var(--text-color);
+
+    text-decoration: none;
+}
+
+.nav_list li .current{
+    color: var(--hover-color);
+}
+
+.contact_list{
+    font-weight: 500;
+
+    list-style: none;
+}
+
+.contacts_anchor {
+    color: var(--alter-text);
+
+    font-size: 14px;
+    line-height: 16px;
+
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var( --hover-color);
+    transition: .2s linear;
+}
+
+
+.contacts_anchor:hover{
+    color: var( --hover-color);
+    transition: .2s linear;
+}
+
+/*main Block*/
+
+main {
+    background-color: var(--bg-color);
+}
+
+.inner_screen {
+    background-color: var(--inner-screen);
+}
+
+h1{
+
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    
+    letter-spacing: .06em;
+
+    color: var(--bg-color);
+}
+
+.btn {
+    
+
+    font-size: 16px;
+
+    color: var(--bg-color);
+    background-color: var( --hover-color);
+
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgb(7, 6, 6);
+}
+
+/*SKILLS block*/
+
+
+
+.skill_ul{
+    
+    list-style: none;
+    
+}
+
+
+
+.li_caption{
+
+
+    font-size: 14px;
+    line-height: 16px;
+
+    font-weight: 500;
+    letter-spacing: .03em;
+
+    text-transform: uppercase;
+
+    color: var(--text-color);
+}
+
+.paragraphs_li{
+
+
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: .03em;
+
+
+color: var(--alter-text);
+}
+
+/*Skill photo-section*/
+
+
+h2{
+    
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    
+    letter-spacing: .03em;
+
+    color: var(--text-color);
+}
+
+.ul_photos{
+   
+    list-style: none;
+   
+}
+
+.li_photos{
+    width: 370px;
+    height: 294px;
+}
+
+
+/*Team block*/
+.team{
+    background-color: var(--team-bg);
+
+    
+}
+
+.h2_team{
+ 
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    letter-spacing: .02em;
+
+    color: var(--text-color);
+}
+
+.team_list {
+ 
+
+    list-style: none;
+}
+
+
+
+.team_face {
+    width: 270px;
+    height: 260px;
+    
+}
+
+.worker_block {
+ 
+    
+    box-shadow: 1px 1px 2px var(--alter-text);
+
+    background-color: var(--bg-color); 
+}
+
+.worker_link{
+    text-decoration: none;
+}
+
+
+.p_team {
+    font-size: 16px;
+    font-weight: 500;
+  
+    line-height: 19px;
+    letter-spacing: .01em;
+
+    text-align: center;
+
+    color: var(--text-color);
+}
+
+
+.proffesion{
+    color: var(--alter-text);
+  
+}
+/*FOOTER BLock*/
+
+
+.footer {
+
+    
+    background-color:var(--inner-screen);
+    
+}
+
+.logos_foot{
+    color: var(--bg-color);
+    font-family: 'Raleway', sans-serif;
+
+   
+    font-size: 27px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: .03em;
+
+   
+
+    text-decoration: none;
+}
+
+.web_foot {
+    color: var(--hover-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.address{
+    font-style: unset;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: .03em;
+    
+    color: var(--bg-color);   
+}
+
+
+
+.li_footer{
+    list-style: none;
+
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: .03em;
+}
+
+.contacts_footer{
+    color:var(--bgbody-color);
+    text-decoration: none;
+}
+
+.contacts_footer:hover{
+    color: var( --hover-color);
+}
+
+.contacts_footer:focus{
+    color: var( --hover-color);
+}
